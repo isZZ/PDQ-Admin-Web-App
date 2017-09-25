@@ -43,7 +43,7 @@ export function authLoggedIn(userUID) {
       .then(
         user => {
           dispatch(userLoadedSuccess(user.val()));
-          dispatch(push('/'));
+          dispatch(push('/admin'));
         })
       .catch(
         error => {
@@ -85,6 +85,7 @@ export function signInWithEmailAndPassword(user) {
 
 export function signOut() {
   return (dispatch, getState) => {
+    console.log('Signing Out');
     dispatch(beginAjaxCall());
     return firebaseApi.authSignOut()
       .then(

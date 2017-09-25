@@ -1,7 +1,8 @@
 import React from 'react';
+import {Menu} from 'semantic-ui-react';
 
 const LogoutLink = ({signOut}) => {
-  return <a href="#" onClick={signOut}>Logout</a>;
+  return <Menu.Item name='logout'  onClick={ signOut }  />;
 };
 
 LogoutLink.propTypes = {

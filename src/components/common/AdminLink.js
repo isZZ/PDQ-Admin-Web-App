@@ -1,12 +1,10 @@
 import React from 'react';
 import {Link} from 'react-router';
+import {Menu} from 'semantic-ui-react';
 
 const AdminLink = () => {
   return (
-    <span>
-      {" | "}
-      <Link to="/admin" activeClassName="active">Admin</Link>
-    </span>
+	<Link to="admin"><Menu.Item name='admin'   /></Link>
   );
 };
 

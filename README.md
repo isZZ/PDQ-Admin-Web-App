@@ -1,9 +1,11 @@
-Firebase 3.0 Starter using React Redux
+PDQ Admin Web App 
 =====================
 
-This is a Firebase 3.0 start using React and Redux.
+This is the web interface for PDQ.
 
-It uses the latest version of libraries, including the brand new React Hot Loader ([still beta](https://github.com/gaearon/react-hot-loader/pull/240))
+It displays data collected by the PDQ mobile chat application (alpha)
+
+This web app is grouped with the PDQ Queuing Server and PDQ mobile chat application 
 
 ## Stack
 
@@ -46,21 +48,8 @@ It uses the latest version of libraries, including the brand new React Hot Loade
     - [X] Set example
     - [X] Query example 
 
-## Usage
-
-```
-git clone git@github.com:douglascorrea/react-hot-redux-firebase-starter.git
-cd react-hot-redux-firebase-starter
-npm install
-npm start -s
-```
-
 ## Development Tasks
 
 - `npm start` run the web app with lint and tests in watch mode
 - `npm run lint` linting javascript code usig eslint
 - `npm run test` test using mocha and enzyme
-
-## Roadmap
-
-Check our [roadmap issues](https://github.com/douglascorrea/react-hot-redux-firebase-starter/issues?q=is%3Aissue+is%3Aopen+label%3Aroadmap)
